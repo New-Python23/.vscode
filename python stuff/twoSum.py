@@ -1,7 +1,6 @@
 def twoSum(nums, target):
     i = 0
-    j = 0
-    
+    j = 0   
     while True:
         if nums[i] + nums[j] == target:
             break
