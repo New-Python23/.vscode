@@ -10,4 +10,4 @@ def mergeSortLists(l1, l2):
     newlist.sort()
     print(newlist)
 
-mergeSortedLists([1,6,7], [2,9,5])
+mergeSortLists([1,6,7], [2,9,5])
