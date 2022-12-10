@@ -33,7 +33,7 @@ def viewAll():
 def findEmployee():
    findID = input("Please enter the employee ID: ")
    j = 0
-   for i in range(len(idList)):
+   for m in range(len(idList)):
       if findID == idList[j]:
          print(data[j])
          break
