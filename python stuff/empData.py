@@ -14,8 +14,7 @@ class Employee:
       self.data = f"Name: {self.name} |  Job: {self.job} | ID: {self.id}"
       print(self.data)
 
-def resetInc():
-   j = 0
+
 def addEmployee():
    name = input("Enter the name: ")
    job = input("Please enter the job: ")
@@ -25,22 +24,22 @@ def addEmployee():
    idList.append(newEmployee.id)
 
 def viewAll():
-   resetInc()
+   l = 0
    for i in range(len(data)):
-      print(f"{data[j]}")
-      j += 1
-   resetInc()
+      print(f"{data[l]}")
+      l += 1
+   l = 0
 
 def findEmployee():
    findID = input("Please enter the employee ID: ")
-   resetInc()
+   j = 0
    for i in range(len(idList)):
       if findID == idList[j]:
          print(data[j])
          break
       else:
          j += 1
-   resetInc()
+   j = 0
       
 
 while True:
